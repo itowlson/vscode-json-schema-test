@@ -3,14 +3,13 @@
     "title": "entity",
     "type": "object",
     "properties": {
-        "id": {
+        "apiVersion": {
             "type": "string",
-            "title": "A unique ID.",
-            "description": "May be up to 64 characters."
+            "const": "2017-01-01.1.0"
         },
-        "displayName": {
+        "apiVersionWorkaround": {
             "type": "string",
-            "title": "A name for use in a UI."
+            "enum": [ "2017-01-01.1.0" ]
         }
     }
 }

@@ -1,4 +1,4 @@
 {
-    "id": "this",
-    "displayName": "that"
+    "apiVersion": "hello mum",
+    "apiVersionWorkaround": "hello mum"
 }
